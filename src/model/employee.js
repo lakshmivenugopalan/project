@@ -12,4 +12,4 @@ var NewEmployeeSchema=new Schema({
     imageUrl:String
 });
 var Employeedata=mongoose.model('employee',NewEmployeeSchema);
-module.exports=Employeedata;
+module.exports={Employeedata};
