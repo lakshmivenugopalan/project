@@ -11,5 +11,5 @@ var NewEmployeeSchema=new Schema({
     dateofbirth:String,
     imageUrl:String
 });
-var Employeedata=mongoose.model('employee',NewEmployeeSchema);
+var Employeedata=mongoose.model('employees',NewEmployeeSchema);
 module.exports={Employeedata};
